@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity"
+    android:background="@mipmap/homepic">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/File_Title"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/app_logo"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-7dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/layout"
+        android:hint="    Dish Title"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/Choose_Dish"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/File_Title"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/layout"
+        android:textColor="@android:color/background_dark"
+        android:text="Choose Dish"
+        android:textStyle="italic"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/Upload_View"
+        android:layout_width="369dp"
+        android:layout_height="225dp"
+        android:layout_below="@id/Choose_Dish"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="20dp" />
+
+    <Button
+        android:id="@+id/Upload_Dish"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Upload_Progress_Bar"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/layout"
+        android:text="Upload Dish"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+    <ProgressBar
+        android:id="@+id/Upload_Progress_Bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_below="@id/Upload_View"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/Display_Dish"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Upload_Progress_Bar"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="145dp"
+        android:text="Display Dish"
+        android:layout_marginStart="220dp"
+        android:background="@drawable/button"
+        android:textColor="@android:color/background_light"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

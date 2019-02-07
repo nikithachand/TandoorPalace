@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "460550553054",
+    "firebase_url": "https://tandoorpalace-17cb7.firebaseio.com",
+    "project_id": "tandoorpalace-17cb7",
+    "storage_bucket": "tandoorpalace-17cb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460550553054:android:a6746f682a638d80",
+        "android_client_info": {
+          "package_name": "com.example.tandoorpalace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460550553054-sc6si32h9tl69e1gf2adrnie5sun5n2t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tandoorpalace",
+            "certificate_hash": "49d29ec95a2df78c141ce9252728e2872b175999"
+          }
+        },
+        {
+          "client_id": "460550553054-0d0883cj345dthm6m31d1fhn2m7n4ua2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_kutW7WbwkS0ZdN9aWbYTF2nRIGc5vb4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460550553054-0d0883cj345dthm6m31d1fhn2m7n4ua2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
